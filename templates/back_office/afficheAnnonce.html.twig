@@ -1,0 +1,30 @@
+{% extends 'base-back.html.twig' %}
+
+{% block title %}BackOffice-Annonce{% endblock %}
+
+{% block body %}
+
+        <h1>Liste des Annonces</h1>
+        <table border="1" class="table">
+            <tr>
+                <th>Id</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>Prix</th>
+                <th>Tel</th>
+                <th>Location</th>
+                <th>Categorie</th>
+                <th>Delete</th>
+            </tr>
+            <tr {% for a in annonce %}>
+                <td>{{a.id}}</td>
+                <td>{{a.description}}</td>
+                <td>{{a.image}}</td>
+                <td>{{a.prix}}</td>
+                <td>{{a.tel}}</td>
+                <td>{{a.location}}</td>
+                <td><a href="{{ path('delete',{'id':a.id}) }}">Delete</a></td>
+            </tr {% endfor %}>
+        </table>
+
+{% endblock %}

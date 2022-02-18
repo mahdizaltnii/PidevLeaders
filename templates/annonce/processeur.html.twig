@@ -1,0 +1,72 @@
+{% extends 'basefront.html.twig' %}
+
+{% block title %}Geek-Annonces{% endblock %}
+
+{% block body %}
+    <link rel="stylesheet" href="{{ asset('box.css') }}">
+    <link rel="stylesheet" href="{{ asset('https://unicons.iconscout.com/release/v3.0.6/css/line.css') }}">
+    <link rel="stylesheet" href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css') }}"/>
+
+
+    <div id="buddypress" class="buddypress-wrap onecommunity bp-dir-hori-nav"><section class="wrapper">
+
+            <main id="content" class="bp-group">
+
+                <div class="breadcrumbs has-bp-cover">
+                    You are here: <a href="https://diaboliquedesign.com/demo/onecommunity-new">Home</a> / <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups">Groups</a> / <span class="current">Processeur</span>
+                </div>
+
+
+
+                <div id="item-header" role="complementary" data-bp-item-id="9" data-bp-item-component="groups" class="groups-header single-headers has-bp-cover">
+
+
+
+                    <div id="cover" style="background-image:url('https://diaboliquedesign.com/demo/onecommunity-new/wp-content/themes/onecommunity/buddypress/img/cover-group.jpg');width: 843px;height: 450px ;margin-bottom: 50px;">
+
+
+                        <div class="item-header-wrappper">
+
+                            <div class="item-header-avatar">
+                                <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/animals/" class="bp-tooltip" data-bp-tooltip="Animals">
+                                    <img data-lazyloaded="1" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/9/5bc88906d69d4-bpfull.jpg" loading="lazy" data-src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/9/5bc88906d69d4-bpfull.jpg" class="processur-img" width="400" height="400" alt="Group logo of Animals" data-was-processed="true"><noscript><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/9/5bc88906d69d4-bpfull.jpg" class="avatar group-9-avatar avatar-400 photo" width="400" height="400" alt="Group logo of Animals" /></noscript>		</a>
+                            </div><!-- #item-header-avatar -->
+
+
+                            <div class="item-header-content">
+
+                                <h2>Processeurs</h2>
+
+                                <div class="item-header-details">
+
+                                    Public Group
+                                </div>
+
+
+                            </div><!-- #item-header-content -->
+
+                        </div><!-- #item-header-wrapper -->
+
+                    </div><!-- #cover -->
+
+                </div><!-- #item-header -->
+
+                <div class="bp-wrap">
+
+
+
+                    <nav class="main-navs no-ajax bp-navs single-screen-navs horizontal groups-nav" id="object-nav" role="navigation" aria-label="Group menu">
+
+
+                    </nav>
+
+    <div class="container" style="max-width: 600px">
+
+        {% form_theme form 'bootstrap_4_layout.html.twig' %}
+        {{ form_start(form) }}
+
+        {{ form_widget(form) }}
+
+        {{ form_end(form) }}
+    </div>
+{% endblock %}

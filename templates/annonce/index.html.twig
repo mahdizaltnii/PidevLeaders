@@ -1,0 +1,425 @@
+{% extends 'basefront.html.twig' %}
+
+{% block title %}Geek-Annonces{% endblock %}
+
+{% block body %}
+    <div id="buddypress" class="buddypress-wrap onecommunity bp-dir-hori-nav"><div id="page-header">
+            <section class="wrapper">
+
+                <div class="breadcrumbs">
+                    You are here: <a href="https://diaboliquedesign.com/demo/onecommunity-new">Home</a> / <span class="current">Groups</span>
+                </div>
+
+                <h1 class="page-title half">Groups</h1>
+
+
+                <nav class="groups-type-navs main-navs bp-navs dir-navs " role="navigation" aria-label="Directory menu">
+
+
+                    <ul class="component-navigation groups-nav">
+
+
+
+                    </ul><!-- .component-navigation -->
+
+
+                </nav><!-- .bp-navs -->
+
+            </section><!-- .wrapper -->
+        </div>
+
+        <section class="wrapper">
+
+
+
+            <div class="screen-content">
+
+                <div class="subnav-filters filters no-ajax" id="subnav-filters">
+
+                    <div class="subnav-search clearfix">
+
+
+
+                        <div class="dir-search groups-search bp-search" data-bp-search="groups">
+                            <form action="" method="get" class="bp-dir-search-form" id="dir-groups-search-form" role="search">
+
+                                <label for="dir-groups-search" class="bp-screen-reader-text">Search Groups...</label>
+
+                                <input placeholder="Search groups" class="search-group" align="center">
+                                <button class="search-button">Search</button>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div id="comp-filters" class="component-filters">
+                        <div id="groups-order-select" class="last filter">
+                            <label for="groups-order-by" class="bp-screen-reader-text">
+                                <span>Order By:</span>
+                            </label>
+                            <div class="select-area">
+                                <select id="groups-order-by" data-bp-filter="groups">
+
+                                    <option value="active">Last Active</option>
+                                    <option value="popular">Most Members</option>
+                                    <option value="newest">Newly Created</option>
+                                    <option value="alphabetical">Alphabetical</option>
+
+                                </select>
+                                <span class="select-arrow" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- search & filters -->
+
+                <div class="clear"></div>
+
+                <div id="groups-dir-list" class="groups dir-list" data-bp-list="groups" style="">
+
+
+                    <ul id="groups-list" class="item-list groups-list bp-list">
+
+
+                        <li class="item-entry odd public group-has-avatar" data-bp-item-id="9" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="{{ path('processeur') }}"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/9/5bc88906d69d4-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Animals"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="{{ path('processeur') }}" class="bp-group-home-link animals-home-link">Processeur</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>6 days ago</span>						</p>
+
+                                        <span class="members-count1">7 members</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry even public group-has-avatar" data-bp-item-id="5" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/music/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/5/5f269b2d1c3b1-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Music"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/music/" class="bp-group-home-link music-home-link">Music</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>25 days ago</span>						</p>
+
+                                        <span class="members-count1">19 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry odd public group-has-avatar" data-bp-item-id="2" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/mauris-malesuada/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/2/5bc8893d36dba-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Art"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/mauris-malesuada/" class="bp-group-home-link mauris-malesuada-home-link">Art</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>3 months ago</span>						</p>
+
+                                        <span class="members-count1">11 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry even public group-has-avatar" data-bp-item-id="14" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/movies/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/14/5bc87dfecf906-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Movies"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/movies/" class="bp-group-home-link movies-home-link">Movies</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>8 months ago</span>						</p>
+
+                                        <span class="members-count1">13 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry odd public group-has-avatar" data-bp-item-id="12" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/games-854707690/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/12/5bc88aea2d5d0-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Games"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/games-854707690/" class="bp-group-home-link games-854707690-home-link">Games</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>10 months ago</span>						</p>
+
+                                        <span class="members-count1">3 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry even public group-has-avatar" data-bp-item-id="15" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/sport/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/15/5bc87fc70c2c0-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Sport"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/sport/" class="bp-group-home-link sport-home-link">Sport</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>a year ago</span>						</p>
+
+                                        <span class="members-count1">11 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry odd public group-has-avatar" data-bp-item-id="4" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/sailing/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/4/5e2eea586c8b4-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Sailing"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/sailing/" class="bp-group-home-link sailing-home-link">Sailing</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>a year ago</span>						</p>
+
+                                        <span class="members-count1">13 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry even public group-has-avatar" data-bp-item-id="19" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/lorem/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/19/5dd65db4970da-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Travel"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/lorem/" class="bp-group-home-link lorem-home-link">Travel</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>a year ago</span>						</p>
+
+                                        <span class="members-count1">17 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry odd public group-has-avatar" data-bp-item-id="16" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/phones/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/16/5bc8984f98fd7-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Spare Time"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/phones/" class="bp-group-home-link phones-home-link">Spare Time</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>a year ago</span>						</p>
+
+                                        <span class="members-count1">1 member</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry even public group-has-avatar" data-bp-item-id="8" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/technology/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/8/5bc87eef39e63-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Technology"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/technology/" class="bp-group-home-link technology-home-link">Technology</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>a year ago</span>						</p>
+
+                                        <span class="members-count1">10 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry odd public group-has-avatar" data-bp-item-id="26" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/spare-time/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/26/5c4992777b1c1-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Spare Time"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/spare-time/" class="bp-group-home-link spare-time-home-link">Spare Time</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>2 years ago</span>						</p>
+
+                                        <span class="members-count1">3 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                        <li class="item-entry even public group-has-avatar" data-bp-item-id="13" data-bp-item-component="groups">
+                            <div class="list-wrap1">
+
+                                <div class="item-avatar">
+                                    <a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/dance/"><img loading="lazy" src="https://diaboliquedesign.com/demo/onecommunity-new/wp-content/uploads/group-avatars/13/5bc89b8fafa10-bpfull.jpg" class="avatar-img1" width="300" height="300" alt="Group logo of Dance"></a>
+                                </div>
+
+                                <div class="item">
+
+                                    <div class="item-block">
+
+                                        <h2 class="list-title groups-title"><a href="https://diaboliquedesign.com/demo/onecommunity-new/groups/dance/" class="bp-group-home-link dance-home-link">Dance</a></h2>
+
+                                        <p class="last-activity item-meta">
+                                            Active <span>2 years ago</span>						</p>
+
+                                        <span class="members-count1">8 members</span>
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+
+                </div><!-- #groups-dir-list -->
+
+            </div><!-- // .screen-content -->
+
+        </section><!-- .wrapper --></div>
+{% endblock %}

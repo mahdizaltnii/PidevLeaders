@@ -1,0 +1,15 @@
+{% extends 'basefront.html.twig' %}
+
+{% block body %}
+<div class="container" style="max-width: 600px">
+
+    {% form_theme form 'bootstrap_4_layout.html.twig' %}
+    {{ form_start(form) }}
+
+    {{ form_widget(form) }}
+    <button class="btn">{{ button_label|default('Post') }}</button>
+
+    {{ form_end(form) }}
+</div>
+{% endblock %}
+

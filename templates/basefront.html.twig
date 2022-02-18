@@ -1,0 +1,969 @@
+
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+    <title>{% block title %}Esprit Template - Index {% endblock %} </title>
+    <meta name='robots' content='noindex, nofollow' />
+
+    <link rel="icon" href="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/uploads/2019/03/favicon-1-100x100.png" sizes="32x32" />
+    <link rel="icon" href="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/uploads/2019/03/favicon-1.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/uploads/2019/03/favicon-1.png" />
+    <meta name="msapplication-TileImage" content="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/uploads/2019/03/favicon-1.png" />
+
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="OneCommunity &raquo; Feed" href="https://diaboliquedesign.com/demo/onecommunity-youzer/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="OneCommunity &raquo; Comments Feed" href="https://diaboliquedesign.com/demo/onecommunity-youzer/comments/feed/" />
+    <script type="text/javascript">
+        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9"}};
+        /*! This file is auto-generated */
+        !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="{{ asset('css/all.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/animations.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/css.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/custom-script.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/dashicons.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/dynamic-groups.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/dynamic-members.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/events_manager.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/friends.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/gamipress.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/group.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/groups.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/latest-activities.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/login-form.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/member.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/members.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/shortcodes.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/sitewide-notices.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/style.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/wc-blocks-style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/wc-blocks-vendors-style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce-layout.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce-smallscreen.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/youzify-bbpress.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/youzify-blue-scheme.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/youzify-headers.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/youzify-membership.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/youzify-mycred.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/youzify-social.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/youzify.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/headerfooter.css') }}" />
+
+
+
+    <script src="{{ asset('js/a11y.min.js') }}"></script>
+    <script src="{{ asset('js/autocomplete.min.js') }}"></script>
+    <script src="{{ asset('js/buddypress.min.js') }}"></script>
+    <script src="{{ asset('js/button.min.js') }}"></script>
+    <script src="{{ asset('js/checkboxradio.min.js') }}"></script>
+    <script src="{{ asset('js/confirm.min.js') }}"></script>
+    <script src="{{ asset('js/controlgroup.min.js') }}"></script>
+    <script src="{{ asset('js/core.min.js') }}"></script>
+    <script src="{{ asset('js/datepicker.min.js') }}"></script>
+    <script src="{{ asset('js/dialog.min.js') }}"></script>
+    <script src="{{ asset('js/dom-ready.min.js') }}"></script>
+    <script src="{{ asset('js/draggable.min.js') }}"></script>
+    <script src="{{ asset('js/events-manager.js') }}"></script>
+    <script src="{{ asset('js/hooks.min.js') }}"></script>
+    <script src="{{ asset('js/html5.js') }}"></script>
+    <script src="{{ asset('js/i18n.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-cookie.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-migrate.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-query.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-scroll-to.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-scroll-to.min.js') }}"></script>
+    <script src="{{ asset('js/menu.min.js') }}"></script>
+    <script src="{{ asset('js/mouse.min.js') }}"></script>
+    <script src="{{ asset('js/regenerator-runtime.min.js') }}"></script>
+    <script src="{{ asset('js/resizable.min.js') }}"></script>
+    <script src="{{ asset('js/sortable.min.js') }}"></script>
+    <script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('js/widget-groups.min.js') }}"></script>
+    <script src="{{ asset('js/widget-members.min.js') }}"></script>
+    <script src="{{ asset('js/wp-polyfill.min.js') }}"></script>
+    <script src="{{ asset('json/public\json\1370.json') }}"></script>
+    <script src="{{ asset('json/embed.json') }}"></script>
+    <script src="{{ asset('json/téléchargement.json') }}"></script>
+    <script src="{{ asset('xml/wlwmanifest.xml') }}"></script>
+    <script src="{{ asset('xml/xmlrpc.xml') }}"></script>
+
+
+
+    {# <link rel='stylesheet' id='wp-block-library-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/css/dist/block-library/style.min.css?ver=5.9' type='text/css' media='all' /> #}
+    {# <link rel='stylesheet' id='bp-login-form-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-core/css/blocks/login-form.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-member-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-members/css/blocks/member.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-members-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-members/css/blocks/members.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-dynamic-members-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-members/css/blocks/dynamic-members.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-latest-activities-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-activity/css/blocks/latest-activities.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-friends-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-friends/css/blocks/friends.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-group-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-groups/css/blocks/group.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-groups-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-groups/css/blocks/groups.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-dynamic-groups-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-groups/css/blocks/dynamic-groups.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-sitewide-notices-block-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-messages/css/blocks/sitewide-notices.min.css?ver=10.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-vendors-style-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=6.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=6.5.2' type='text/css' media='all' /> #}
+    <style id='global-styles-inline-css' type='text/css'>
+        body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+    </style>
+    {# <link rel='stylesheet' id='contact-form-7-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='events-manager-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.99912' type='text/css' media='all' />
+    <link rel='stylesheet' id='gamipress-css-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/gamipress/assets/css/gamipress.min.css?ver=2.2.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=6.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=6.1.1' type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=6.1.1' type='text/css' media='all' /> #}
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required { visibility: visible; }
+    </style>
+    {# <link rel='stylesheet' id='youzify-opensans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600&#038;ver=3.3.0' type='text/css' media='all' /> #}
+    {# <link rel='stylesheet' id='youzify-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/public/assets/css/youzify.min.css?ver=3.3.0' type='text/css' media='all' /> #}
+    {# <link rel='stylesheet' id='youzify-headers-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/public/assets/css/youzify-headers.min.css?ver=3.3.0' type='text/css' media='all' /> #}
+    {# <link rel='stylesheet' id='youzify-scheme-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/public/assets/css/schemes/youzify-blue-scheme.min.css?ver=3.3.0' type='text/css' media='all' /> #}
+    {# <link rel='stylesheet' id='dashicons-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/css/dashicons.min.css?ver=5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='youzify-social-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/public/assets/css/youzify-social.min.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='youzify-icons-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/admin/assets/css/all.min.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='youzify-mycred-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/public/assets/css/youzify-mycred.min.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='onecommunity-style-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/themes/onecommunity-youzify/style.css?ver=5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/themes/onecommunity-youzify/css/responsive.css?ver=5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='onecommunity-animations-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/themes/onecommunity-youzify/css/animations.css?ver=5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='youzify-bbpress-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/public/assets/css/youzify-bbpress.min.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='youzify-membership-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/public/assets/css/youzify-membership.min.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='youzify-membership-customStyle-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/admin/assets/css/custom-script.css?ver=5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='onecommunity-shortcodes-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/onecommunity-shortcodes/css/shortcodes.css?ver=5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-style-css'  href='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/onecommunity-shortcodes/css/swiper-bundle.min.css?ver=5.9' type='text/css' media='all' /> #}
+    <link rel='stylesheet' id='Nunito-css'  href='//fonts.googleapis.com/css?family=Nunito%3A400%2C400i%2C600%2C700%2C800%2C900&#038;ver=5.9' type='text/css' media='all' />
+    {# <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+                                                                                                                                                                                                                                                                                                                                         <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <script type='text/javascript' id='bp-confirm-js-extra'>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              /* <![CDATA[ */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          var BP_Confirm = {"are_you_sure":"Are you sure?"};
+/* ]]> */
+</script>
+  <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-core/js/confirm.min.js?ver=10.0.0' id='bp-confirm-js'></script>
+                                                                                                                                                                                     <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-core/js/widget-members.min.js?ver=10.0.0' id='bp-widget-members-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                      <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-core/js/jquery-query.min.js?ver=10.0.0' id='bp-jquery-query-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-core/js/vendor/jquery-cookie.min.js?ver=10.0.0' id='bp-jquery-cookie-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-core/js/vendor/jquery-scroll-to.min.js?ver=10.0.0' id='bp-jquery-scroll-to-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <script type='text/javascript' id='bp-legacy-js-js-extra'>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  /* <![CDATA[ */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              var BP_DTheme = {"accepted":"Accepted","close":"Close","comments":"comments","leave_group_confirm":"Are you sure you want to leave this group?","mark_as_fav":"Like","my_favs":"My Favorites","rejected":"Rejected","remove_fav":"Unlike","show_all":"Show all","show_all_comments":"Show all comments for this thread","show_x_comments":"Show all comments (%d)","unsaved_changes":"Your profile has unsaved changes. If you leave the page, the changes will be lost.","view":"View","store_filter_settings":""};
+/* ]]> */
+</script>
+  <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/youzify/includes/public/assets/js/buddypress.min.js?ver=10.0.0' id='bp-legacy-js-js'></script>
+                                                                                                                                                                                                      <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/plugins/buddypress/bp-groups/js/widget-groups.min.js?ver=10.0.0' id='groups_widget_groups_list-js-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                   <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/core.min.js?ver=1.13.0' id='jquery-ui-core-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.0' id='jquery-ui-mouse-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.0' id='jquery-ui-sortable-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.0' id='jquery-ui-datepicker-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <script type='text/javascript' id='jquery-ui-datepicker-js-after'>
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+  <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/menu.min.js?ver=1.13.0' id='jquery-ui-menu-js'></script>
+                                                                                                                                                                      <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/dist/dom-ready.min.js?ver=ecda74de0221e1c2ce5c57cbb5af09d5' id='wp-dom-ready-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                  <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/dist/hooks.min.js?ver=1e58c8c5a32b2e97491080c5b10dc71c' id='wp-hooks-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/dist/i18n.min.js?ver=30fcecb428a0e8383d3776bcdd3a7834' id='wp-i18n-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <script type='text/javascript' id='wp-i18n-js-after'>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>  #}
+    {# <script type='text/javascript' id='wp-a11y-js-translations'>
+( function( domain, translations ) {
+    var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+    localeData[""].domain = domain;
+    wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+  <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/dist/a11y.min.js?ver=68e470cf840f69530e9db3be229ad4b6' id='wp-a11y-js'></script>
+                                                                                                                                                                                    <script type='text/javascript' id='jquery-ui-autocomplete-js-extra'>
+                                                                                                                                                                                                                                                           /* <![CDATA[ */
+                                                                                                                                                                                                                                                       var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+  <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.13.0' id='jquery-ui-autocomplete-js'></script>
+                                                                                                                                                                                      <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/resizable.min.js?ver=1.13.0' id='jquery-ui-resizable-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                    <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.0' id='jquery-ui-draggable-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/controlgroup.min.js?ver=1.13.0' id='jquery-ui-controlgroup-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/checkboxradio.min.js?ver=1.13.0' id='jquery-ui-checkboxradio-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/button.min.js?ver=1.13.0' id='jquery-ui-button-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <script type='text/javascript' src='https://diaboliquedesign.com/demo/onecommunity-youzer/wp-includes/js/jquery/ui/dialog.min.js?ver=1.13.0' id='jquery-ui-dialog-js'></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <script type='text/javascript' id='events-manager-js-extra'>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           /* <![CDATA[ */
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       var EM = {"ajaxurl":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","google_maps_api":"AIzaSyA3gC2QBvcOG-Q5Ly-E2QA6u9z-F-X8Mcs","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","booking_offset":"30","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Are you sure you want to cancel your booking?"};
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <link rel="canonical" href="https://diaboliquedesign.com/demo/onecommunity-youzer/" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   <link rel='shortlink' href='https://diaboliquedesign.com/demo/onecommunity-youzer/' />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <link rel="alternate" type="application/json+oembed" href="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdiaboliquedesign.com%2Fdemo%2Fonecommunity-youzer%2F" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <link rel="alternate" type="text/xml+oembed" href="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdiaboliquedesign.com%2Fdemo%2Fonecommunity-youzer%2F&#038;format=xml"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <script type="text/javascript">var ajaxurl = 'https://diaboliquedesign.com/demo/onecommunity-youzer/wp-admin/admin-ajax.php';</script> #}
+
+</head>
+    <div class="container">
+
+        <header id="main">
+            <div class="header-top">
+
+                <div class="logo">
+
+
+                    <a href="{{ path('home') }}" class='light' title="OneCommunity"><img src="{{ asset('img/logo.png') }}" class="logo-image" alt="OneCommunity" /></a>
+
+
+
+                </div>
+
+
+                <div class="header-top-right">
+
+                    <div class="header-search"><div class="asp_w_container">
+                            <div class='asp_w asp_m asp_m_1 asp_m_1_1 wpdreams_asp_sc wpdreams_asp_sc-1 ajaxsearchpro asp_main_container  asp_non_compact'
+                                 data-id="1"
+                                 data-name="1"
+                                 data-instance="1"
+                                 id='ajaxsearchpro1_1'>
+
+                                <div class="probox">
+
+                                    <div class='promagnifier' tabindex="101">
+                                        <div class='asp_text_button hiddend'>
+                                            Search		</div>
+                                        <div class='innericon'>
+                                        </div>
+                                        <div class="asp_clear"></div>
+                                    </div>
+
+
+
+                                    <div class='prosettings' style='display:none;' data-opened=0>
+                                        <div class='innericon'>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512"><polygon transform="rotate(90 256 256)" points="142.332,104.886 197.48,50 402.5,256 197.48,462 142.332,407.113 292.727,256"/></svg>        </div>
+                                    </div>
+
+
+
+                                    <div class='proinput'>
+                                        <form action='#' autocomplete="off" aria-label="Search form 1">
+                                            <input type='search' class='orig'
+                                                   tabindex="100"
+                                                   placeholder='Search ...'
+                                                   name='phrase' value=''
+                                                   aria-label="Search input 1"
+                                                   autocomplete="off"/>
+                                            <input type='text' class='autocomplete' name='phrase' value=''
+                                                   aria-label="Search autocomplete, ignore please"
+                                                   aria-hidden="true"
+                                                   autocomplete="off" disabled/>
+                                            <input type='submit'
+                                                   aria-hidden="true"
+                                                   aria-label="Hidden button"
+                                                   style='width:0; height: 0; visibility: hidden;'>
+                                        </form>
+                                    </div>
+
+
+
+                                    <div class='proloading'>
+                                        <div class="asp_loader">
+                                            <div class="asp_loader-inner asp_simple-circle">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class='proclose'>
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                             y="0px"
+                                             width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                             xml:space="preserve">
+            <polygon points="438.393,374.595 319.757,255.977 438.378,137.348 374.595,73.607 255.995,192.225 137.375,73.622 73.607,137.352 192.246,255.983 73.622,374.625 137.352,438.393 256.002,319.734 374.652,438.378 "/>
+            </svg>
+                                    </div>
+
+
+                                </div>	</div>
+                            <div class='asp_data_container' style="display:none !important;">
+                                <div class="asp_init_data"
+                                     style="display:none !important;"
+                                     id="asp_init_id_1_1"
+                                     data-asp-id="1"
+                                     data-asp-instance="1"
+                                     data-aspdata="ew0KICAgICAgICAiaG9tZXVybCI6ICJodHRwczovL2RpYWJvbGlxdWVkZXNpZ24uY29tL2RlbW8vb25lY29tbXVuaXR5LXlvdXplci8iLA0KICAgICAgICAicmVzdWx0c3R5cGUiOiAidmVydGljYWwiLA0KICAgICJyZXN1bHRzcG9zaXRpb24iOiAiaG92ZXIiLA0KICAgICJyZXN1bHRzU25hcFRvIjogImxlZnQiLA0KICAgICJyZXN1bHRzIjogew0KICAgICAgICAid2lkdGgiOiAiYXV0byIsDQogICAgICAgICJ3aWR0aF90YWJsZXQiOiAiYXV0byIsDQogICAgICAgICJ3aWR0aF9waG9uZSI6ICJhdXRvIg0KICAgIH0sDQogICAgIml0ZW1zY291bnQiOiA0LA0KICAgICJjaGFyY291bnQiOiAgMCwNCiAgICAiaGlnaGxpZ2h0IjogMCwNCiAgICAiaGlnaGxpZ2h0V2hvbGV3b3JkcyI6IDEsDQogICAgInNpbmdsZUhpZ2hsaWdodCI6IDAsDQogICAgInNjcm9sbFRvUmVzdWx0cyI6IHsNCiAgICAgICAgImVuYWJsZWQiOiAwLA0KICAgICAgICAib2Zmc2V0IjogMCAgICB9LA0KICAgICJhdXRvY29tcGxldGUiOiB7DQogICAgICAgICJlbmFibGVkIjogMSwNCgkJInRyaWdnZXJfY2hhcmNvdW50IjogMCwNCiAgICAgICAgImdvb2dsZU9ubHkiOiAxLA0KICAgICAgICAibGFuZyI6ICJlbiIsDQogICAgICAgICJtb2JpbGUiOiAxICAgIH0sDQogICAgInRyaWdnZXIiOiB7DQogICAgICAgICJkZWxheSI6IDMwMCwNCiAgICAgICAgImF1dG9jb21wbGV0ZV9kZWxheSI6IDMxMCwNCiAgICAgICAgImZhY2V0IjogMSwNCiAgICAgICAgInR5cGUiOiAxLA0KICAgICAgICAiY2xpY2siOiAiYWpheF9zZWFyY2giLA0KICAgICAgICAiY2xpY2tfbG9jYXRpb24iOiAic2FtZSIsDQogICAgICAgICJyZXR1cm4iOiAiYWpheF9zZWFyY2giLA0KICAgICAgICAicmV0dXJuX2xvY2F0aW9uIjogInNhbWUiLA0KICAgICAgICAicmVkaXJlY3RfdXJsIjogIj9zPXtwaHJhc2V9IiwNCiAgICAgICAgImVsZW1lbnRvcl91cmwiOiAiaHR0cHM6Ly9kaWFib2xpcXVlZGVzaWduLmNvbS9kZW1vL29uZWNvbW11bml0eS15b3V6ZXIvP2FzcF9scz17cGhyYXNlfSINCiAgICB9LA0KICAgICJvdmVycmlkZXdwZGVmYXVsdCI6IDEsDQogICAgIm92ZXJyaWRlX21ldGhvZCI6ICJnZXQiLA0KICAgICJzZXR0aW5ncyI6IHsNCiAgICAgICAgImhpZGVDaGlsZHJlbiI6IDAgICAgfSwNCiAgICAic2V0dGluZ3NpbWFnZXBvcyI6ICJyaWdodCIsDQogICAgInNldHRpbmdzVmlzaWJsZSI6IDAsDQogICAgInNldHRpbmdzSGlkZU9uUmVzIjogMCwNCiAgICAicHJlc2NvbnRhaW5lcmhlaWdodCI6ICI0MDBweCIsDQogICAgImNsb3NlT25Eb2NDbGljayI6IDEsDQogICAgImlzb3RvcGljIjogew0KICAgICAgICAiaXRlbVdpZHRoIjogIjIwMHB4IiwNCiAgICAgICAgIml0ZW1XaWR0aFRhYmxldCI6ICIyMDBweCIsDQogICAgICAgICJpdGVtV2lkdGhQaG9uZSI6ICIyMDBweCIsDQogICAgICAgICJpdGVtSGVpZ2h0IjogIjIwMHB4IiwNCiAgICAgICAgIml0ZW1IZWlnaHRUYWJsZXQiOiAiMjAwcHgiLA0KICAgICAgICAiaXRlbUhlaWdodFBob25lIjogIjIwMHB4IiwNCiAgICAgICAgInBhZ2luYXRpb24iOiAxLA0KICAgICAgICAicm93cyI6IDIsDQogICAgICAgICJndXR0ZXIiOiA1LA0KICAgICAgICAic2hvd092ZXJsYXkiOiAxLA0KICAgICAgICAiYmx1ck92ZXJsYXkiOiAxLA0KICAgICAgICAiaGlkZUNvbnRlbnQiOiAxICAgIH0sDQogICAgImxvYWRlckxvY2F0aW9uIjogImF1dG8iLA0KICAgICJzaG93X21vcmUiOiB7DQogICAgICAgICJlbmFibGVkIjogMCwNCiAgICAgICAgInVybCI6ICI/cz17cGhyYXNlfSIsDQogICAgICAgICJlbGVtZW50b3JfdXJsIjogImh0dHBzOi8vZGlhYm9saXF1ZWRlc2lnbi5jb20vZGVtby9vbmVjb21tdW5pdHkteW91emVyLz9hc3BfbHM9e3BocmFzZX0iLA0KICAgICAgICAiYWN0aW9uIjogImFqYXgiLA0KICAgICAgICAibG9jYXRpb24iOiAic2FtZSIsDQogICAgICAgICJpbmZpbml0ZSI6IDEgICAgfSwNCiAgICAibW9iaWxlIjogew0KICAgICAgICAidHJpZ2dlcl9vbl90eXBlIjogMSwNCiAgICAgICAgImNsaWNrX2FjdGlvbiI6ICJhamF4X3NlYXJjaCIsDQogICAgICAgICJyZXR1cm5fYWN0aW9uIjogImFqYXhfc2VhcmNoIiwNCiAgICAgICAgImNsaWNrX2FjdGlvbl9sb2NhdGlvbiI6ICJzYW1lIiwNCiAgICAgICAgInJldHVybl9hY3Rpb25fbG9jYXRpb24iOiAic2FtZSIsDQogICAgICAgICJyZWRpcmVjdF91cmwiOiAiP3M9e3BocmFzZX0iLA0KICAgICAgICAiZWxlbWVudG9yX3VybCI6ICJodHRwczovL2RpYWJvbGlxdWVkZXNpZ24uY29tL2RlbW8vb25lY29tbXVuaXR5LXlvdXplci8/YXNwX2xzPXtwaHJhc2V9IiwNCiAgICAgICAgIm1lbnVfc2VsZWN0b3IiOiAiI21lbnUtdG9nZ2xlIiwNCiAgICAgICAgImhpZGVfa2V5Ym9hcmQiOiAxLA0KICAgICAgICAiZm9yY2VfcmVzX2hvdmVyIjogMCwNCiAgICAgICAgImZvcmNlX3NldHRfaG92ZXIiOiAwLA0KICAgICAgICAiZm9yY2Vfc2V0dF9zdGF0ZSI6ICJub25lIg0KICAgIH0sDQogICAgImNvbXBhY3QiOiB7DQogICAgICAgICJlbmFibGVkIjogMCwNCiAgICAgICAgIndpZHRoIjogIjEwMCUiLA0KICAgICAgICAid2lkdGhfdGFibGV0IjogIjQ4MHB4IiwNCiAgICAgICAgIndpZHRoX3Bob25lIjogIjMyMHB4IiwNCiAgICAgICAgImNsb3NlT25NYWduaWZpZXIiOiAxLA0KICAgICAgICAiY2xvc2VPbkRvY3VtZW50IjogMCwNCiAgICAgICAgInBvc2l0aW9uIjogInN0YXRpYyIsDQogICAgICAgICJvdmVybGF5IjogMCAgICB9LA0KICAgICJzYiI6IHsNCiAgICAgICAgInJlZGlyZWN0X2FjdGlvbiI6ICJhamF4X3NlYXJjaCIsDQogICAgICAgICJyZWRpcmVjdF9sb2NhdGlvbiI6ICJzYW1lIiwNCiAgICAgICAgInJlZGlyZWN0X3VybCI6ICI/cz17cGhyYXNlfSIsDQogICAgICAgICJlbGVtZW50b3JfdXJsIjogImh0dHBzOi8vZGlhYm9saXF1ZWRlc2lnbi5jb20vZGVtby9vbmVjb21tdW5pdHkteW91emVyLz9hc3BfbHM9e3BocmFzZX0iDQogICAgfSwNCiAgICAicmIiOiB7DQogICAgICAgICJhY3Rpb24iOiAibm90aGluZyINCiAgICB9LA0KICAgICJhbmltYXRpb25zIjogew0KICAgICAgICAicGMiOiB7DQogICAgICAgICAgICAic2V0dGluZ3MiOiB7DQogICAgICAgICAgICAgICAgImFuaW0iIDogImZhZGVkcm9wIiwNCiAgICAgICAgICAgICAgICAiZHVyIiAgOiAzMDAgICAgICAgICAgICB9LA0KICAgICAgICAgICAgInJlc3VsdHMiIDogew0KICAgICAgICAgICAgICAgICJhbmltIiA6ICJmYWRlZHJvcCIsDQogICAgICAgICAgICAgICAgImR1ciIgIDogMzAwICAgICAgICAgICAgfSwNCiAgICAgICAgICAgICJpdGVtcyIgOiAiZmFkZUluRG93biINCiAgICAgICAgfSwNCiAgICAgICAgIm1vYiI6IHsNCiAgICAgICAgICAgICJzZXR0aW5ncyI6IHsNCiAgICAgICAgICAgICAgICAiYW5pbSIgOiAiZmFkZWRyb3AiLA0KICAgICAgICAgICAgICAgICJkdXIiICA6IDMwMCAgICAgICAgICAgIH0sDQogICAgICAgICAgICAicmVzdWx0cyIgOiB7DQogICAgICAgICAgICAgICAgImFuaW0iIDogImZhZGVkcm9wIiwNCiAgICAgICAgICAgICAgICAiZHVyIiAgOiAzMDAgICAgICAgICAgICB9LA0KICAgICAgICAgICAgIml0ZW1zIiA6ICJ2b2lkYW5pbSINCiAgICAgICAgfQ0KICAgIH0sDQogICAgInNlbGVjdDIiOiB7DQogICAgICAgICJub3JlcyI6ICJObyByZXN1bHRzIG1hdGNoIg0KICAgIH0sDQogICAgImRldGVjdFZpc2liaWxpdHkiIDogMCwNCiAgICAiYXV0b3AiOiB7DQogICAgICAgICJzdGF0ZSI6ICJkaXNhYmxlZCIsDQogICAgICAgICJwaHJhc2UiOiAiIiwNCiAgICAgICAgImNvdW50IjogMTAgICAgfSwNCiAgICAicmVzUGFnZSI6IHsNCiAgICAgICAgInVzZUFqYXgiOiAwLA0KICAgICAgICAic2VsZWN0b3IiOiAiI21haW4iLA0KICAgICAgICAidHJpZ2dlcl90eXBlIjogMSwNCiAgICAgICAgInRyaWdnZXJfZmFjZXQiOiAxLA0KICAgICAgICAidHJpZ2dlcl9tYWduaWZpZXIiOiAwLA0KICAgICAgICAidHJpZ2dlcl9yZXR1cm4iOiAwICAgIH0sDQogICAgImZzc19sYXlvdXQiOiAiZmxleCIsDQogICAgInNjcm9sbEJhciI6IHsNCiAgICAgICAgInZlcnRpY2FsIjogew0KICAgICAgICAgICAgImF1dG9IaWRlIjogMSAgICAgICAgfSwNCiAgICAgICAgImhvcml6b250YWwiOiB7DQogICAgICAgICAgICAiZW5hYmxlZCI6IDEsDQogICAgICAgICAgICAiYXV0b0hpZGUiOiAxICAgICAgICB9LA0KICAgICAgICAic2V0dGluZ3MiOiB7DQogICAgICAgICAgICAiYXV0b0hpZGUiOiAwICAgICAgICB9DQogICAgfSwNCiAgICAicHJldmVudEJvZHlTY3JvbGwiOiAwLA0KICAgICJzdGF0aXN0aWNzIjogMH0NCg=="></div>
+                                <div class='asp_hidden_data' style="display:none !important;">
+                                    <div class='asp_item_overlay'>
+                                        <div class='asp_item_inner'>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512"><path d="M448.225 394.243l-85.387-85.385c16.55-26.08 26.146-56.986 26.146-90.094 0-92.99-75.652-168.64-168.643-168.64-92.988 0-168.64 75.65-168.64 168.64s75.65 168.64 168.64 168.64c31.466 0 60.94-8.67 86.176-23.734l86.14 86.142c36.755 36.754 92.355-18.783 55.57-55.57zm-344.233-175.48c0-64.155 52.192-116.35 116.35-116.35s116.353 52.194 116.353 116.35S284.5 335.117 220.342 335.117s-116.35-52.196-116.35-116.352zm34.463-30.26c34.057-78.9 148.668-69.75 170.248 12.863-43.482-51.037-119.984-56.532-170.248-12.862z"/></svg>                    </div>
+                                    </div>
+                                </div>	</div>
+                            <div id='__original__ajaxsearchprores1_1' class='asp_w asp_r asp_r_1 asp_r_1_1 vertical ajaxsearchpro wpdreams_asp_sc wpdreams_asp_sc-1'
+                                 data-id="1"
+                                 data-instance="1">
+
+
+
+
+                                <div class="results">
+
+
+                                    <div class="resdrg">
+                                    </div>
+
+
+                                </div>
+
+
+
+
+
+                                <div class="asp_res_loader hiddend">
+                                    <div class="asp_loader">
+                                        <div class="asp_loader-inner asp_simple-circle">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>	<div id='__original__ajaxsearchprosettings1_1' class="asp_w asp_ss asp_s asp_s_1 asp_s_1_1 wpdreams_asp_sc wpdreams_asp_sc-1 ajaxsearchpro searchsettings"
+                                           data-id="1"
+                                           data-instance="1">
+                                <form name='options' class="asp-fss-flex" autocomplete = 'off'>
+                                    <input type="hidden" style="display:none;" name="current_page_id" value="1370">
+                                    <input type="hidden" style="display:none;" name="woo_currency" value="GBP">
+                                    <input type='hidden' name='qtranslate_lang' style="display:none;"
+                                           value='0'/>
+                                    <input type="hidden" name="filters_changed" style="display:none;" value="0">
+                                    <input type="hidden" name="filters_initial" style="display:none;" value="1">
+                                    <fieldset class="asp_filter_generic asp_filter_id_1 asp_filter_n_0">
+                                        <legend>Generic filters</legend>
+                                        <div class="asp_option">
+                                            <div class="asp_option_inner">
+                                                <input type="checkbox" value="exact" id="set_exact1_1"
+                                                       aria-label="Exact matches only"
+                                                       name="asp_gen[]" />
+                                                <label aria-hidden="true"
+                                                       for="set_exact1_1">
+                                                    Hidden label        </label>
+                                            </div>
+                                            <div class="asp_option_label">
+                                                Exact matches only    </div>
+                                        </div>
+                                        <div class="asp_option hiddend" aria-hidden="true">
+                                            <div class="asp_option_inner">
+                                                <input type="checkbox" value="title" id="set_title1_1"
+                                                       data-origvalue="1"                       name="asp_gen[]"  checked="checked"/>
+                                                <label for="set_title1_1">
+                                                    Hidden label                </label>
+                                            </div>
+                                        </div>
+                                        <div class="asp_option hiddend" aria-hidden="true">
+                                            <div class="asp_option_inner">
+                                                <input type="checkbox" value="content" id="set_content1_1"
+                                                       data-origvalue="1"                       name="asp_gen[]"  checked="checked"/>
+                                                <label for="set_content1_1">
+                                                    Hidden label                </label>
+                                            </div>
+                                        </div>
+                                        <div class="asp_option hiddend" aria-hidden="true">
+                                            <div class="asp_option_inner">
+                                                <input type="checkbox" value="excerpt" id="set_excerpt1_1"
+                                                       data-origvalue="1"                       name="asp_gen[]"  checked="checked"/>
+                                                <label for="set_excerpt1_1">
+                                                    Hidden label                </label>
+                                            </div>
+                                        </div>
+                                    </fieldset>        <input type="checkbox"
+                                                              style="display: none !important;"
+                                                              value="buddydrive-file"
+                                                              aria-label="Hidden label"
+                                                              aria-hidden="true"
+                                                              id="1_1customset_1_1100"
+                                                              name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="user_request"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_1customset_1_1101"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="bp_doc"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_1customset_1_1102"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="post"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_1customset_1_1103"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="event"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_1customset_1_1104"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="page"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_1customset_1_1105"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="forum"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_1customset_1_1106"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="product"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_1customset_1_1107"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="reply"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_1customset_1_1108"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="topic"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_1customset_1_1109"
+                                           name="customset[]" checked="checked"/>
+                                    <div style="clear:both;"></div>
+                                </form>	</div>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <a href="https://diaboliquedesign.com/demo/onecommunity-youzer/register" class="header-top-signin tada">Register</a>
+
+                    <a class="header-top-login header-top-login-jump login-popup-action">Login</a>
+
+
+
+                </div><!-- header-top-right -->
+
+
+
+                <!-- onecommunity_header_menu transient -->
+                <div id="header-menu-container">
+                    <ul id="menu-header-menu" class="header-menu"><li id="menu-item-802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-802"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/about-us/">About Us</a>
+                        <li id="menu-item-1999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1999"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/activity/">MarketPlace</a></li>
+                        <li id="menu-item-2000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2000"><a href="/forum">Forum</a></li>
+                        <li id="menu-item-2001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2001"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/groups/">Events</a></li>
+                        <li id="menu-item-2002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2002"><a href="{{ path('annonce') }}">Annonces</a></li>
+
+                        <li id="menu-item-2061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2061"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/contact-us/">Contact Us</a></li>
+                    </ul>					</div><!-- header-menu-container -->
+
+
+                <div id="mobile-nav">
+                    <div class="header-menu-mobile-container"><ul id="menu-header-menu-1" class="header-menu-mobile"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-802"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/about-us/">About Us</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2252"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/homepage-2/">Homepage 2</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3875"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/homepage-3/">Homepage 3</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3994"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/homepage-4/">Homepage 4 (Swiper)</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-810"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/child-menu-a/">Aliquam erat volutpat</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-812"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/child-menu-3/">Nam quis sollicitudin</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-811"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/child-menu-4/">Etiam nulla vitae</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/child-menu-b/">Non pellentesque</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-880"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/events/">Events</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-881"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/events/categories/">Categories</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-882"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/events/locations/">Locations</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-883"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/events/my-bookings/">My Bookings</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/events/tags/">Tags</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-886"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/shortcodes/">Shortcodes</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/child-menu-2/">Full width page</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2124"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/shop/">Shop</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2099"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/product-category/ebooks/">eBooks</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2243"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/leaderboard/">Leaderboard</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1999"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/activity/">Activity</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2000"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/forum/">Forum</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2001"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/groups/">Groups</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2002"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/members/">Members</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2003"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/news/">News</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2004"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/news-classic/">News Classic</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2005"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/news-full-width/">News Full Width</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2061"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/contact-us/">Contact Us</a></li>
+                        </ul></div>					</div><!-- mobile-nav -->
+
+
+
+
+                <div id="header-search-mobile">
+                    <div id="header-search-mobile-icon"></div>
+                    <div class="header-search-mobile-field">
+                        <div class="asp_w_container">
+                            <div class='asp_w asp_m asp_m_1 asp_m_1_2 wpdreams_asp_sc wpdreams_asp_sc-1 ajaxsearchpro asp_main_container  asp_non_compact'
+                                 data-id="1"
+                                 data-name="1"
+                                 data-instance="2"
+                                 id='ajaxsearchpro1_2'>
+
+                                <div class="probox">
+
+                                    <div class='promagnifier' tabindex="101">
+                                        <div class='asp_text_button hiddend'>
+                                            Search		</div>
+                                        <div class='innericon'>
+                                        </div>
+                                        <div class="asp_clear"></div>
+                                    </div>
+
+
+
+                                    <div class='prosettings' style='display:none;' data-opened=0>
+                                        <div class='innericon'>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512"><polygon transform="rotate(90 256 256)" points="142.332,104.886 197.48,50 402.5,256 197.48,462 142.332,407.113 292.727,256"/></svg>        </div>
+                                    </div>
+
+
+
+                                    <div class='proinput'>
+                                        <form action='#' autocomplete="off" aria-label="Search form 1">
+                                            <input type='search' class='orig'
+                                                   tabindex="100"
+                                                   placeholder='Search ...'
+                                                   name='phrase' value=''
+                                                   aria-label="Search input 1"
+                                                   autocomplete="off"/>
+                                            <input type='text' class='autocomplete' name='phrase' value=''
+                                                   aria-label="Search autocomplete, ignore please"
+                                                   aria-hidden="true"
+                                                   autocomplete="off" disabled/>
+                                            <input type='submit'
+                                                   aria-hidden="true"
+                                                   aria-label="Hidden button"
+                                                   style='width:0; height: 0; visibility: hidden;'>
+                                        </form>
+                                    </div>
+
+
+
+                                    <div class='proloading'>
+                                        <div class="asp_loader">
+                                            <div class="asp_loader-inner asp_simple-circle">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class='proclose'>
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                             y="0px"
+                                             width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512"
+                                             xml:space="preserve">
+            <polygon points="438.393,374.595 319.757,255.977 438.378,137.348 374.595,73.607 255.995,192.225 137.375,73.622 73.607,137.352 192.246,255.983 73.622,374.625 137.352,438.393 256.002,319.734 374.652,438.378 "/>
+            </svg>
+                                    </div>
+
+
+                                </div>	</div>
+                            <div class='asp_data_container' style="display:none !important;">
+                                <div class="asp_init_data"
+                                     style="display:none !important;"
+                                     id="asp_init_id_1_2"
+                                     data-asp-id="1"
+                                     data-asp-instance="2"
+                                     data-aspdata="ew0KICAgICAgICAiaG9tZXVybCI6ICJodHRwczovL2RpYWJvbGlxdWVkZXNpZ24uY29tL2RlbW8vb25lY29tbXVuaXR5LXlvdXplci8iLA0KICAgICAgICAicmVzdWx0c3R5cGUiOiAidmVydGljYWwiLA0KICAgICJyZXN1bHRzcG9zaXRpb24iOiAiaG92ZXIiLA0KICAgICJyZXN1bHRzU25hcFRvIjogImxlZnQiLA0KICAgICJyZXN1bHRzIjogew0KICAgICAgICAid2lkdGgiOiAiYXV0byIsDQogICAgICAgICJ3aWR0aF90YWJsZXQiOiAiYXV0byIsDQogICAgICAgICJ3aWR0aF9waG9uZSI6ICJhdXRvIg0KICAgIH0sDQogICAgIml0ZW1zY291bnQiOiA0LA0KICAgICJjaGFyY291bnQiOiAgMCwNCiAgICAiaGlnaGxpZ2h0IjogMCwNCiAgICAiaGlnaGxpZ2h0V2hvbGV3b3JkcyI6IDEsDQogICAgInNpbmdsZUhpZ2hsaWdodCI6IDAsDQogICAgInNjcm9sbFRvUmVzdWx0cyI6IHsNCiAgICAgICAgImVuYWJsZWQiOiAwLA0KICAgICAgICAib2Zmc2V0IjogMCAgICB9LA0KICAgICJhdXRvY29tcGxldGUiOiB7DQogICAgICAgICJlbmFibGVkIjogMSwNCgkJInRyaWdnZXJfY2hhcmNvdW50IjogMCwNCiAgICAgICAgImdvb2dsZU9ubHkiOiAxLA0KICAgICAgICAibGFuZyI6ICJlbiIsDQogICAgICAgICJtb2JpbGUiOiAxICAgIH0sDQogICAgInRyaWdnZXIiOiB7DQogICAgICAgICJkZWxheSI6IDMwMCwNCiAgICAgICAgImF1dG9jb21wbGV0ZV9kZWxheSI6IDMxMCwNCiAgICAgICAgImZhY2V0IjogMSwNCiAgICAgICAgInR5cGUiOiAxLA0KICAgICAgICAiY2xpY2siOiAiYWpheF9zZWFyY2giLA0KICAgICAgICAiY2xpY2tfbG9jYXRpb24iOiAic2FtZSIsDQogICAgICAgICJyZXR1cm4iOiAiYWpheF9zZWFyY2giLA0KICAgICAgICAicmV0dXJuX2xvY2F0aW9uIjogInNhbWUiLA0KICAgICAgICAicmVkaXJlY3RfdXJsIjogIj9zPXtwaHJhc2V9IiwNCiAgICAgICAgImVsZW1lbnRvcl91cmwiOiAiaHR0cHM6Ly9kaWFib2xpcXVlZGVzaWduLmNvbS9kZW1vL29uZWNvbW11bml0eS15b3V6ZXIvP2FzcF9scz17cGhyYXNlfSINCiAgICB9LA0KICAgICJvdmVycmlkZXdwZGVmYXVsdCI6IDEsDQogICAgIm92ZXJyaWRlX21ldGhvZCI6ICJnZXQiLA0KICAgICJzZXR0aW5ncyI6IHsNCiAgICAgICAgImhpZGVDaGlsZHJlbiI6IDAgICAgfSwNCiAgICAic2V0dGluZ3NpbWFnZXBvcyI6ICJyaWdodCIsDQogICAgInNldHRpbmdzVmlzaWJsZSI6IDAsDQogICAgInNldHRpbmdzSGlkZU9uUmVzIjogMCwNCiAgICAicHJlc2NvbnRhaW5lcmhlaWdodCI6ICI0MDBweCIsDQogICAgImNsb3NlT25Eb2NDbGljayI6IDEsDQogICAgImlzb3RvcGljIjogew0KICAgICAgICAiaXRlbVdpZHRoIjogIjIwMHB4IiwNCiAgICAgICAgIml0ZW1XaWR0aFRhYmxldCI6ICIyMDBweCIsDQogICAgICAgICJpdGVtV2lkdGhQaG9uZSI6ICIyMDBweCIsDQogICAgICAgICJpdGVtSGVpZ2h0IjogIjIwMHB4IiwNCiAgICAgICAgIml0ZW1IZWlnaHRUYWJsZXQiOiAiMjAwcHgiLA0KICAgICAgICAiaXRlbUhlaWdodFBob25lIjogIjIwMHB4IiwNCiAgICAgICAgInBhZ2luYXRpb24iOiAxLA0KICAgICAgICAicm93cyI6IDIsDQogICAgICAgICJndXR0ZXIiOiA1LA0KICAgICAgICAic2hvd092ZXJsYXkiOiAxLA0KICAgICAgICAiYmx1ck92ZXJsYXkiOiAxLA0KICAgICAgICAiaGlkZUNvbnRlbnQiOiAxICAgIH0sDQogICAgImxvYWRlckxvY2F0aW9uIjogImF1dG8iLA0KICAgICJzaG93X21vcmUiOiB7DQogICAgICAgICJlbmFibGVkIjogMCwNCiAgICAgICAgInVybCI6ICI/cz17cGhyYXNlfSIsDQogICAgICAgICJlbGVtZW50b3JfdXJsIjogImh0dHBzOi8vZGlhYm9saXF1ZWRlc2lnbi5jb20vZGVtby9vbmVjb21tdW5pdHkteW91emVyLz9hc3BfbHM9e3BocmFzZX0iLA0KICAgICAgICAiYWN0aW9uIjogImFqYXgiLA0KICAgICAgICAibG9jYXRpb24iOiAic2FtZSIsDQogICAgICAgICJpbmZpbml0ZSI6IDEgICAgfSwNCiAgICAibW9iaWxlIjogew0KICAgICAgICAidHJpZ2dlcl9vbl90eXBlIjogMSwNCiAgICAgICAgImNsaWNrX2FjdGlvbiI6ICJhamF4X3NlYXJjaCIsDQogICAgICAgICJyZXR1cm5fYWN0aW9uIjogImFqYXhfc2VhcmNoIiwNCiAgICAgICAgImNsaWNrX2FjdGlvbl9sb2NhdGlvbiI6ICJzYW1lIiwNCiAgICAgICAgInJldHVybl9hY3Rpb25fbG9jYXRpb24iOiAic2FtZSIsDQogICAgICAgICJyZWRpcmVjdF91cmwiOiAiP3M9e3BocmFzZX0iLA0KICAgICAgICAiZWxlbWVudG9yX3VybCI6ICJodHRwczovL2RpYWJvbGlxdWVkZXNpZ24uY29tL2RlbW8vb25lY29tbXVuaXR5LXlvdXplci8/YXNwX2xzPXtwaHJhc2V9IiwNCiAgICAgICAgIm1lbnVfc2VsZWN0b3IiOiAiI21lbnUtdG9nZ2xlIiwNCiAgICAgICAgImhpZGVfa2V5Ym9hcmQiOiAxLA0KICAgICAgICAiZm9yY2VfcmVzX2hvdmVyIjogMCwNCiAgICAgICAgImZvcmNlX3NldHRfaG92ZXIiOiAwLA0KICAgICAgICAiZm9yY2Vfc2V0dF9zdGF0ZSI6ICJub25lIg0KICAgIH0sDQogICAgImNvbXBhY3QiOiB7DQogICAgICAgICJlbmFibGVkIjogMCwNCiAgICAgICAgIndpZHRoIjogIjEwMCUiLA0KICAgICAgICAid2lkdGhfdGFibGV0IjogIjQ4MHB4IiwNCiAgICAgICAgIndpZHRoX3Bob25lIjogIjMyMHB4IiwNCiAgICAgICAgImNsb3NlT25NYWduaWZpZXIiOiAxLA0KICAgICAgICAiY2xvc2VPbkRvY3VtZW50IjogMCwNCiAgICAgICAgInBvc2l0aW9uIjogInN0YXRpYyIsDQogICAgICAgICJvdmVybGF5IjogMCAgICB9LA0KICAgICJzYiI6IHsNCiAgICAgICAgInJlZGlyZWN0X2FjdGlvbiI6ICJhamF4X3NlYXJjaCIsDQogICAgICAgICJyZWRpcmVjdF9sb2NhdGlvbiI6ICJzYW1lIiwNCiAgICAgICAgInJlZGlyZWN0X3VybCI6ICI/cz17cGhyYXNlfSIsDQogICAgICAgICJlbGVtZW50b3JfdXJsIjogImh0dHBzOi8vZGlhYm9saXF1ZWRlc2lnbi5jb20vZGVtby9vbmVjb21tdW5pdHkteW91emVyLz9hc3BfbHM9e3BocmFzZX0iDQogICAgfSwNCiAgICAicmIiOiB7DQogICAgICAgICJhY3Rpb24iOiAibm90aGluZyINCiAgICB9LA0KICAgICJhbmltYXRpb25zIjogew0KICAgICAgICAicGMiOiB7DQogICAgICAgICAgICAic2V0dGluZ3MiOiB7DQogICAgICAgICAgICAgICAgImFuaW0iIDogImZhZGVkcm9wIiwNCiAgICAgICAgICAgICAgICAiZHVyIiAgOiAzMDAgICAgICAgICAgICB9LA0KICAgICAgICAgICAgInJlc3VsdHMiIDogew0KICAgICAgICAgICAgICAgICJhbmltIiA6ICJmYWRlZHJvcCIsDQogICAgICAgICAgICAgICAgImR1ciIgIDogMzAwICAgICAgICAgICAgfSwNCiAgICAgICAgICAgICJpdGVtcyIgOiAiZmFkZUluRG93biINCiAgICAgICAgfSwNCiAgICAgICAgIm1vYiI6IHsNCiAgICAgICAgICAgICJzZXR0aW5ncyI6IHsNCiAgICAgICAgICAgICAgICAiYW5pbSIgOiAiZmFkZWRyb3AiLA0KICAgICAgICAgICAgICAgICJkdXIiICA6IDMwMCAgICAgICAgICAgIH0sDQogICAgICAgICAgICAicmVzdWx0cyIgOiB7DQogICAgICAgICAgICAgICAgImFuaW0iIDogImZhZGVkcm9wIiwNCiAgICAgICAgICAgICAgICAiZHVyIiAgOiAzMDAgICAgICAgICAgICB9LA0KICAgICAgICAgICAgIml0ZW1zIiA6ICJ2b2lkYW5pbSINCiAgICAgICAgfQ0KICAgIH0sDQogICAgInNlbGVjdDIiOiB7DQogICAgICAgICJub3JlcyI6ICJObyByZXN1bHRzIG1hdGNoIg0KICAgIH0sDQogICAgImRldGVjdFZpc2liaWxpdHkiIDogMCwNCiAgICAiYXV0b3AiOiB7DQogICAgICAgICJzdGF0ZSI6ICJkaXNhYmxlZCIsDQogICAgICAgICJwaHJhc2UiOiAiIiwNCiAgICAgICAgImNvdW50IjogMTAgICAgfSwNCiAgICAicmVzUGFnZSI6IHsNCiAgICAgICAgInVzZUFqYXgiOiAwLA0KICAgICAgICAic2VsZWN0b3IiOiAiI21haW4iLA0KICAgICAgICAidHJpZ2dlcl90eXBlIjogMSwNCiAgICAgICAgInRyaWdnZXJfZmFjZXQiOiAxLA0KICAgICAgICAidHJpZ2dlcl9tYWduaWZpZXIiOiAwLA0KICAgICAgICAidHJpZ2dlcl9yZXR1cm4iOiAwICAgIH0sDQogICAgImZzc19sYXlvdXQiOiAiZmxleCIsDQogICAgInNjcm9sbEJhciI6IHsNCiAgICAgICAgInZlcnRpY2FsIjogew0KICAgICAgICAgICAgImF1dG9IaWRlIjogMSAgICAgICAgfSwNCiAgICAgICAgImhvcml6b250YWwiOiB7DQogICAgICAgICAgICAiZW5hYmxlZCI6IDEsDQogICAgICAgICAgICAiYXV0b0hpZGUiOiAxICAgICAgICB9LA0KICAgICAgICAic2V0dGluZ3MiOiB7DQogICAgICAgICAgICAiYXV0b0hpZGUiOiAwICAgICAgICB9DQogICAgfSwNCiAgICAicHJldmVudEJvZHlTY3JvbGwiOiAwLA0KICAgICJzdGF0aXN0aWNzIjogMH0NCg=="></div>
+                                <div class='asp_hidden_data' style="display:none !important;">
+                                    <div class='asp_item_overlay'>
+                                        <div class='asp_item_inner'>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512"><path d="M448.225 394.243l-85.387-85.385c16.55-26.08 26.146-56.986 26.146-90.094 0-92.99-75.652-168.64-168.643-168.64-92.988 0-168.64 75.65-168.64 168.64s75.65 168.64 168.64 168.64c31.466 0 60.94-8.67 86.176-23.734l86.14 86.142c36.755 36.754 92.355-18.783 55.57-55.57zm-344.233-175.48c0-64.155 52.192-116.35 116.35-116.35s116.353 52.194 116.353 116.35S284.5 335.117 220.342 335.117s-116.35-52.196-116.35-116.352zm34.463-30.26c34.057-78.9 148.668-69.75 170.248 12.863-43.482-51.037-119.984-56.532-170.248-12.862z"/></svg>                    </div>
+                                    </div>
+                                </div>	</div>
+                            <div id='__original__ajaxsearchprores1_2' class='asp_w asp_r asp_r_1 asp_r_1_2 vertical ajaxsearchpro wpdreams_asp_sc wpdreams_asp_sc-1'
+                                 data-id="1"
+                                 data-instance="2">
+
+
+
+
+                                <div class="results">
+
+
+                                    <div class="resdrg">
+                                    </div>
+
+
+                                </div>
+
+
+
+
+
+                                <div class="asp_res_loader hiddend">
+                                    <div class="asp_loader">
+                                        <div class="asp_loader-inner asp_simple-circle">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>	<div id='__original__ajaxsearchprosettings1_2' class="asp_w asp_ss asp_s asp_s_1 asp_s_1_2 wpdreams_asp_sc wpdreams_asp_sc-1 ajaxsearchpro searchsettings"
+                                           data-id="1"
+                                           data-instance="2">
+                                <form name='options' class="asp-fss-flex" autocomplete = 'off'>
+                                    <input type="hidden" style="display:none;" name="current_page_id" value="1370">
+                                    <input type="hidden" style="display:none;" name="woo_currency" value="GBP">
+                                    <input type='hidden' name='qtranslate_lang' style="display:none;"
+                                           value='0'/>
+                                    <input type="hidden" name="filters_changed" style="display:none;" value="0">
+                                    <input type="hidden" name="filters_initial" style="display:none;" value="1">
+                                    <fieldset class="asp_filter_generic asp_filter_id_1 asp_filter_n_0">
+                                        <legend>Generic filters</legend>
+                                        <div class="asp_option">
+                                            <div class="asp_option_inner">
+                                                <input type="checkbox" value="exact" id="set_exact1_2"
+                                                       aria-label="Exact matches only"
+                                                       name="asp_gen[]" />
+                                                <label aria-hidden="true"
+                                                       for="set_exact1_2">
+                                                    Hidden label        </label>
+                                            </div>
+                                            <div class="asp_option_label">
+                                                Exact matches only    </div>
+                                        </div>
+                                        <div class="asp_option hiddend" aria-hidden="true">
+                                            <div class="asp_option_inner">
+                                                <input type="checkbox" value="title" id="set_title1_2"
+                                                       data-origvalue="1"                       name="asp_gen[]"  checked="checked"/>
+                                                <label for="set_title1_2">
+                                                    Hidden label                </label>
+                                            </div>
+                                        </div>
+                                        <div class="asp_option hiddend" aria-hidden="true">
+                                            <div class="asp_option_inner">
+                                                <input type="checkbox" value="content" id="set_content1_2"
+                                                       data-origvalue="1"                       name="asp_gen[]"  checked="checked"/>
+                                                <label for="set_content1_2">
+                                                    Hidden label                </label>
+                                            </div>
+                                        </div>
+                                        <div class="asp_option hiddend" aria-hidden="true">
+                                            <div class="asp_option_inner">
+                                                <input type="checkbox" value="excerpt" id="set_excerpt1_2"
+                                                       data-origvalue="1"                       name="asp_gen[]"  checked="checked"/>
+                                                <label for="set_excerpt1_2">
+                                                    Hidden label                </label>
+                                            </div>
+                                        </div>
+                                    </fieldset>        <input type="checkbox"
+                                                              style="display: none !important;"
+                                                              value="buddydrive-file"
+                                                              aria-label="Hidden label"
+                                                              aria-hidden="true"
+                                                              id="1_2customset_1_2100"
+                                                              name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="user_request"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_2customset_1_2101"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="bp_doc"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_2customset_1_2102"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="post"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_2customset_1_2103"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="event"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_2customset_1_2104"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="page"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_2customset_1_2105"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="forum"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_2customset_1_2106"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="product"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_2customset_1_2107"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="reply"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_2customset_1_2108"
+                                           name="customset[]" checked="checked"/>
+                                    <input type="checkbox"
+                                           style="display: none !important;"
+                                           value="topic"
+                                           aria-label="Hidden label"
+                                           aria-hidden="true"
+                                           id="1_2customset_1_2109"
+                                           name="customset[]" checked="checked"/>
+                                    <div style="clear:both;"></div>
+                                </form>	</div>
+
+                        </div>
+                    </div>
+
+                </div><!-- header-top -->
+            </div>
+
+        </header>
+        <!-- Header END -->
+
+        <!-- Footer Start -->
+        {% block body %}
+
+        {% endblock %}
+
+        <footer >
+
+
+    <div class="footer-columns">
+
+
+        <div class="wrapper">
+            <div class="footer-columns-col-1 footer-column">
+
+                <div class="footer-logo">
+
+
+                    <a href="{{ path('home') }}" class='light' title="OneCommunity"><img src="{{ asset('img/logo.png') }}" /></a>
+                    <a href="{{ path('home') }}" class="logo-text">Geek</a>
+
+
+
+                </div>
+
+                <p>A social network service in a box. Get your community to the higher level. It's easy with OneCommunity.</p>
+
+            </div>
+
+            <div class="footer-columns-col-2 footer-column">
+
+                <h6>Informations</h6>
+
+                <ul id="menu-footer-menu" class="mini-footer-menu"><li id="menu-item-1495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1495"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/about-us/">About Us</a></li>
+                    <li id="menu-item-871" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-871"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/how-does-it-work/">How does it work?</a></li>
+                    <li id="menu-item-2029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2029"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/sitemap/">Sitemap</a></li>
+                    <li id="menu-item-870" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-870"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/contact-us/">Contact Us</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-columns-col-3 footer-column">
+
+                <h6>Legal</h6>
+
+                <ul id="menu-footer-menu-1" class="mini-footer-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1495"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/about-us/">About Us</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-871"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/how-does-it-work/">How does it work?</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2029"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/sitemap/">Sitemap</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-870"><a href="https://diaboliquedesign.com/demo/onecommunity-youzer/contact-us/">Contact Us</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-columns-col-4 footer-column">
+
+                <div class="social-icons">
+
+                    <h6>Follow Us</h6>
+
+                    <a href="https://diaboliquedesign.com/demo/onecommunity-youzer/feed/"><img class="social" src="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/themes/onecommunity-youzify/img/icon-rss.svg" alt="RSS"></a>
+
+                    <a href="//instagram.com"><img class="social" src="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/themes/onecommunity-youzify/img/icon-instagram.svg" alt="Instagram"></a>
+
+                    <a href="//twitter.com" rel="nofollow"><img class="social" src="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/themes/onecommunity-youzify/img/icon-twitter.svg" alt="Twitter"></a>
+
+                    <a href="//youtube.com"><img class="social" src="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/themes/onecommunity-youzify/img/icon-youtube.svg" alt="Youtube"></a>
+
+                    <a href="https://www.facebook.com/sharer.php?u=https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/themes/onecommunity-youzer/img/search.svg&amp;t=Page not found | OneCommunity"><img class="social" src="https://diaboliquedesign.com/demo/onecommunity-youzer/wp-content/themes/onecommunity-youzify/img/icon-facebook.svg" alt="Facebook"></a>
+
+                </div><!-- social-icons -->
+
+            </div><!-- footer-column -->
+
+        </div><!-- wrapper -->
+
+    </div><!-- footer-columns -->
+
+
+    <section class="footer-copyright">
+        <div class="wrapper">
+            &copy; 2022 GEEK.
+        </div><!-- wrapper -->
+    </section>
+</footer>
+    </div>
+
+
+
+<!-- 239 queries in 0.213 seconds. -->
+<div class='asp_hidden_data' id="asp_hidden_data" style="display: none !important;">
+                <svg style="position:absolute" height="0" width="0">
+                    <filter id="aspblur">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+                    </filter>
+                </svg>
+                <svg style="position:absolute" height="0" width="0">
+                    <filter id="no_aspblur"></filter>
+                </svg>
+            </div>
+        	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type='text/javascript' id='login-js-js-extra'>
+/* <![CDATA[ */
+var login_js = {"ajaxurl":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","redirecturl":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer","loadingmessage":"Sending user info, please wait..."};
+/* ]]> */
+</script>
+<script src="{{ asset('js/login.js') }}"></script>
+<script src="{{ asset('js/moment.min.js') }}"></script>
+<script src="{{ asset('js/livestamp.min.js') }}"></script>
+<script src="{{ asset('js/a11y.min.js') }}"></script>
+<script src="{{ asset('js/comment-replay.min.js') }}"></script>
+<script src="{{ asset('js/index.js') }}"></script>
+<script src="{{ asset('js/gamipress.min.js') }}"></script>
+<script src="{{ asset('js/masonry.min.js') }}"></script>
+<script src="{{ asset('js/jquery.blockUI.min.js') }}"></script>
+<script src="{{ asset('js/add-to-cart.min.js') }}"></script>
+<script src="{{ asset('js/wp-ulike.min.js') }}"></script>
+<script src="{{ asset('js/youzify.min.js') }}"></script>
+<script src="{{ asset('js/jquery.ajaxsearchpro-sb.min.js') }}"></script>
+<script src="{{ asset('js/heartbeat.min.js') }}"></script>
+<script src="{{ asset('js/functions.js') }}"></script>
+<script src="{{ asset('js/functions1.js') }}"></script>
+<script src="{{ asset('js/imagesloaded.min.js') }}"></script>
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='gamipress-js-js-extra'>
+/* <![CDATA[ */
+var gamipress = {"ajaxurl":"\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","nonce":"bd8aa133fc","achievement_fields":["id","title","link","thumbnail","points_awarded","points_awarded_thumbnail","excerpt","times_earned","global_times_earned","steps","toggle","unlock_button","earners","earners_limit","layout","align"]};
+/* ]]> */
+</script>
+<script type='text/javascript' id='gamipress-events-js-js-extra'>
+/* <![CDATA[ */
+var gamipress_events = {"ajaxurl":"\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","nonce":"bd8aa133fc","user_id":"0","post_id":"1370","server_date":"2022-02-11","debug_mode":""};
+/* ]]> */
+</script>
+
+
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/demo\/onecommunity-youzer\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/demo\/onecommunity-youzer\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/demo\/onecommunity-youzer\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_18299d49788f209787d8efd4f3c39ccd","fragment_name":"wc_fragments_18299d49788f209787d8efd4f3c39ccd","request_timeout":"5000"};
+/* ]]> */
+</script>
+
+<script type='text/javascript' id='wp_ulike-js-extra'>
+/* <![CDATA[ */
+var wp_ulike_params = {"ajax_url":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","notifications":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='youzify-js-extra'>
+/* <![CDATA[ */
+var Youzify = {"unknown_error":"An unknown error occurred. Please try again later.","slideshow_auto":"1","slides_height_type":"fixed","activity_autoloader":"on","authenticating":"Authenticating...","security_nonce":"c5a3d8156f","displayed_user_id":"0","ajax_url":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php","save_changes":"Save Changes","thanks":"OK! Thanks","confirm":"Confirm","cancel":"Cancel","menu_title":"Menu","gotit":"Got it!","done":"Done!","ops":"Oops!","poll_option":"Option %d","poll_option_empty":"Sorry, you need to choose at least one option.","slideshow_speed":"5","assets":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-content\/plugins\/youzify\/includes\/public\/assets\/","youzify_url":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-content\/plugins\/youzify\/","live_notifications":"on","last_notification":"0","sound_file":"https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-content\/plugins\/youzify\/includes\/public\/assets\/youzify-notification-sound","timeout":"10","notifications_interval":"30"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='wd-asp-ajaxsearchpro-js-before'>
+window.ASP = typeof window.ASP !== 'undefined' ? window.ASP : {}; window.ASP.wp_rocket_exception = "DOMContentLoaded"; window.ASP.ajaxurl = "https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php"; window.ASP.backend_ajaxurl = "https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php"; window.ASP.js_scope = "jQuery"; window.ASP.asp_url = "https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-content\/plugins\/ajax-search-pro\/"; window.ASP.upload_url = "https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-content\/uploads\/asp_upload\/"; window.ASP.css_basic_url = "https:\/\/diaboliquedesign.com\/demo\/onecommunity-youzer\/wp-content\/uploads\/asp_upload\/style.basic-ho-is-po-no-da-co-au-ga-se-is.css"; window.ASP.detect_ajax = 0; window.ASP.media_query = "35Xl9x"; window.ASP.version = 5021; window.ASP.pageHTML = ""; window.ASP.additional_scripts = []; window.ASP.script_async_load = false; window.ASP.scrollbar = true; window.ASP.css_async = false; window.ASP.js_retain_popstate = 0; window.ASP.highlight = {"enabled":false,"data":[]}; window.ASP.debug = false; window.ASP.instances = {}; window.ASP.analytics = {"method":0,"tracking_id":"","string":"?ajax_search={asp_term}","event":{"focus":{"active":1,"action":"focus","category":"ASP {search_id} | {search_name}","label":"Input focus","value":"1"},"search_start":{"active":0,"action":"search_start","category":"ASP {search_id} | {search_name}","label":"Phrase: {phrase}","value":"1"},"search_end":{"active":1,"action":"search_end","category":"ASP {search_id} | {search_name}","label":"{phrase} | {results_count}","value":"1"},"magnifier":{"active":1,"action":"magnifier","category":"ASP {search_id} | {search_name}","label":"Magnifier clicked","value":"1"},"return":{"active":1,"action":"return","category":"ASP {search_id} | {search_name}","label":"Return button pressed","value":"1"},"try_this":{"active":1,"action":"try_this","category":"ASP {search_id} | {search_name}","label":"Try this click | {phrase}","value":"1"},"facet_change":{"active":0,"action":"facet_change","category":"ASP {search_id} | {search_name}","label":"{option_label} | {option_value}","value":"1"},"result_click":{"active":1,"action":"result_click","category":"ASP {search_id} | {search_name}","label":"{result_title} | {result_url}","value":"1"}}};
+</script>
+<script type='text/javascript' id='heartbeat-js-extra'>
+/* <![CDATA[ */
+var heartbeatSettings = {"ajaxurl":"\/demo\/onecommunity-youzer\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+    var ajaxurl = "https://diaboliquedesign.com/demo/onecommunity-youzer/wp-admin/admin-ajax.php";
+</script>
+</html>
